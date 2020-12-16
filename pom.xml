@@ -567,6 +567,14 @@
 			<url>https://repo.spring.io/libs-release</url>
 		</pluginRepository>
 	</pluginRepositories>
+	
+	<distributionManagement>
+	   <snapshotRepository>
+	      <id>REPO</id>
+	      <url>NEXUS_URL/REPO/</url>
+              <uniqueVersion>false</uniqueVersion>
+	   </snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
